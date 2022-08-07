@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS CAROUSEL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>JS Carousel</h1>
+  <div class="carousel">
+
+    
+    <div class="carousel-container">
+      
+      <div class="slide">
+        <img src="c1.jpg" alt="carousel img 1">
+      </div>
+      
+      <div class="slide">
+        <img src="c2.jpg" alt="carousel img 2">
+      </div>
+      
+      <div class="slide">
+        <img src="c3.jpg" alt="carousel img 3">
+      </div>
+      
+    </div>
+    
+    <a class="btn left-btn" onclick="plusSlides(-1)">&#8678;</a>
+    <a class="btn right-btn" onclick="plusSlides(1)">&#8680;</a>
+
+    <div class="dots">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
